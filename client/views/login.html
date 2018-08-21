@@ -1,0 +1,23 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form ng-submit="loginUser()">
+			<h2>LogIn</h2>
+			<hr/>
+			<div class="form-group">
+				<input type="email" ng-model="login.email" class="form-control input-md" placeholder="email Address" tabindex="1" required>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" ng-model="login.password" class="form-control input-md" placeholder="password" tabindex="2" required>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<button type="submit" class="btn btn-primary btn-block btn-md" tabindex="3">SignIn</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
